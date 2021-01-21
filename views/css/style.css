@@ -1,0 +1,26 @@
+/* Your custom styles */
+html,
+body {
+    height: 100%;
+}
+
+#body {
+    display: none;
+}
+
+#listContacts,
+#listMessages {
+    overflow: auto;
+}
+
+#listContacts {
+    height: 700px;
+}
+
+#listMessages {
+    height: 650px;
+}
+
+.logs {
+    list-style: none;
+}
