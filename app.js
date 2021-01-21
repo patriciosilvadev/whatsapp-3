@@ -225,13 +225,15 @@ io.on('connection', function(socket){
                     socket.emit('pesan', 
                     {
                         message:message,
-                        number:data.number
+                        number:data.number,
+                        contactName:data.contactName
                     });
                 } catch (error) {
                     message = false;
                     socket.emit('pesan',  {
                         message:message,
-                        number:data.number
+                        number:data.number,
+                        contactName:data.contactName
                     });
                 }
             })
